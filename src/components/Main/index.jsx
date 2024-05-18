@@ -31,6 +31,20 @@ const Main = () => {
             <img src={assets.code_icon} />
           </div>
         </div>
+
+        <div className='main-bottom'>
+          <div className="search-box">
+            <input type="text" placeholder="Search..." />
+            <div>
+              <img src={assets.gallery_icon} />
+              <img src={assets.mic_icon} />
+              <img src={assets.send_icon} />
+            </div>
+          </div>
+          <p className="bottom-info">
+            GeminiAi - Ngodingbentar
+          </p>
+        </div>
       </div>
     </div>
   )
