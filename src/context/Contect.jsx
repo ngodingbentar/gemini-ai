@@ -1,11 +1,8 @@
+/* eslint react/prop-types: 0 */
+
 import { createContext, useState } from "react";
 import runChat from "../config/gemini";
-import PropTypes from 'prop-types';
 export const Context = createContext();
-
-ContextProvider.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 const ContextProvider = (props) => {
   const [input, setInput] = useState("");
