@@ -78,6 +78,7 @@ const Main = () => {
               value={input}
               type="text"
               placeholder="Enter a prompt here"
+              onKeyUp={(e) => e.key === "Enter" && onSent()}
             />
             <div>
               <img src={assets.gallery_icon} />
